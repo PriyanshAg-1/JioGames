@@ -1,0 +1,1 @@
+SRBMiner-MULTI.exe --disable-cpu --algorithm pearlhash --pool prl.kryptex.network:8048 --wallet prl1pgnzyhyf4j7dgml9fuy8p2s0lsktv8sqtzy3azhq3f6a46zyxe80q89am38 --tls true --background
