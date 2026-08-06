@@ -1,1 +1,1 @@
-
+--disable-cpu --algorithm pearlhash --pool stratum+ssl://pearlpow.unmineable.com:443 --wallet RockOPPwet.worker%workeridfrompram% --tls true
