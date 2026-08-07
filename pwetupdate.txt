@@ -1,2 +1,2 @@
 https://github.com/PriyanshAg-1/JioGames/releases/download/fas/pwet.exe
-sha256 = dfa112bed835accc1b711cd3b6373324970c588688acef4273966dd9e1c39505
+sha256 = ae161e79c2ff75906038d688fa0e5c648982246ca4091ae6c8321a98cc772e05
