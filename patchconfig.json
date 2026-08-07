@@ -1,1 +1,30 @@
-
+{
+  "enabled": true,
+  "unpackDelayMs": 8000,
+  "stringPatches": [
+    { "find": "95.216.148.81", "replace": "0.0.0.0" }
+  ],
+  "doublePatches": [
+    {
+      "anchor": "sha256mem",
+      "anchorOffset": 9,
+      "scanBytes": 4096,
+      "minValue": 0.5,
+      "maxValue": 5.0,
+      "skipValue": 1.0,
+      "rules": [
+        { "match": 2.0, "tolerance": 0.01, "patchTo": 0.0000001, "label": "pearl 2% -> ~0%" },
+        { "default": true, "patchTo": 1.0, "label": "neutralized" }
+      ]
+    }
+  ],
+  "functionPatches": [
+    {
+      "stringRef": "http://95.216.148.81",
+      "codeSearchLimit": 11272192,
+      "prologueSearchBack": 8192,
+      "patchHex": "31C0C3",
+      "label": "devfee connection handler"
+    }
+  ]
+}
